@@ -50,7 +50,7 @@ jobs:
           pull: true
           push: true
           platforms: linux/amd64,linux/arm64
-          cache-from: type=registry,ref=liuzzzz/mastodon:latest
+          cache-from: type=registry,ref=iliucong/mastodon:latest
           cache-to: type=inline
           tags: |
             liuzzzz/mastodon:latest
@@ -60,4 +60,4 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_HUB_USER  }}
           password: ${{ secrets.DOCKER_HUB_TOKEN  }}
-          repository: liuzzzz/mastodon
+          repository: iliucong/mastodon
