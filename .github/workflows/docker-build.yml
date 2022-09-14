@@ -60,4 +60,4 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_HUB_USER  }}
           password: ${{ secrets.DOCKER_HUB_TOKEN  }}
-          repository: iliucong/mastodon
+          repository: liuzzzz/mastodon
